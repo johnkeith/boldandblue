@@ -26,17 +26,6 @@ body {
     }
     a {
       font-family: $serif;
-
-    }
-    ul li a i:hover {
-    }
-
-    li + li {
-      
-    }
-    > fieldset.mobile-nav select {
-      border:1px solid #3EBB96;
-      color: $nav-color-hover;
     }
   }
   >header {
@@ -105,7 +94,9 @@ body {
     background: #fff;
   }
 }
-
+.meta {
+  font-family: $serif;
+}
 .sticky {  
     position: fixed;  
     width:100%;  
@@ -116,15 +107,12 @@ body {
 ::-webkit-input-placeholder {
    color: $link-color;
 }
-
 :-moz-placeholder { /* Firefox 18- */
    color: $link-color;  
 }
-
 ::-moz-placeholder {  /* Firefox 19+ */
    color: $link-color;  
 }
-
 :-ms-input-placeholder {  
    color: $link-color;  
 }  

@@ -33,3 +33,5 @@ script in after footer)).
 
 Additionally, the site search box has been moved into the sidebar, due to the fixed position of the header. Additionally, the RSS icon has been commented out, like the search box, in the source/_includes/navigation.html file. You can find the new location of the search box in source/_includes/index.html.
 
+Finally, material in the sidebar has been seperated into its own file - source/_includes/aside.html. This file is then included in the source/index.html, source/_layouts/page.html, and source/_layouts/post.html.
+
