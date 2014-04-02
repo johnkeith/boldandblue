@@ -2,7 +2,6 @@
 
 Bold and Blue is an Octopress theme designed to be bold, but minimal.
 
-
 To get this snazzy fellow running on your blog, follow the instructions below.
  
 Navigate to the root of your Octopress install, then run these two commands.
