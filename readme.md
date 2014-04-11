@@ -20,7 +20,7 @@ Or, if zsh is giving you grief, use this instead of the previous line.
 
 Tada! That's all folks - read on only if you want to see the rational behind some of Bold and Blue's design decisions.
 
-## The Wherefores of Bold and Blue's Design
+## Whys and Wherefores of the Design
 
 Octopress' basic theme does a great job with many aspects: layout, typography, and responsiveness. (In short, readability is the base design's strong suit). What it lacks, however, is pizzaz.
 
@@ -32,7 +32,7 @@ Color is also altered in this theme, in a semi-major way. Under sass/custom/_col
 
 Typographically, a few changes were made. Due to the increased width of the body (1320px max as opposed to the 1200px max of Octopress' defaults), the line-height and font-size of the body element have been increased to 1.8em and 1.1em respectively. (You can see this change in sass/custom/_styles.scss). 
 
-Bold and Blue also incorporates a sticky header. While I may try to animate the header's sticking process at some point in the future, for now I think the transition is fine, due to the white background of both header and body. The jQuery that enables the sticky header can be found in the source/_includes/custom/after_footer.html, while the CSS that keeps the header where it needs to be is in the _styles.scss file. (The jQuery and CSS snippets for this header came from [this article](http://www.hongkiat.com/blog/css-sticky-position/).
+Bold and Blue also incorporates a sticky header. While I may try to animate the header's sticking process at some point in the future, for now I think the transition is fine, due to the white background of both header and body. The jQuery that enables the sticky header can be found in the source/_includes/custom/after_footer.html, while the CSS that keeps the header where it needs to be is in the _styles.scss file. (The jQuery and CSS snippets for this header came from [this article](http://www.hongkiat.com/blog/css-sticky-position/)).
 
 Additionally, the site search box has been moved into the sidebar, due to the fixed position of the header. Along with this, the RSS icon has been commented out, like the search box, in the source/_includes/navigation.html file. You can find the new location of the search box in source/_includes/index.html.
 
