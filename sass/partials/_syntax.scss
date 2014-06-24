@@ -1,11 +1,5 @@
 .highlight, html .gist .gist-file .gist-syntax .gist-highlight {
-  table {
-    margin: 0;
-    td {
-      padding: 0;
-      &.code { width: 100%; }
-    }
-  }
+  table td.code { width: 100%; }
   border: 1px solid $pre-border !important;
 }
 .highlight .line-numbers, html .gist .gist-file .gist-syntax .highlight .line_numbers {
