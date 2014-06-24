@@ -69,7 +69,6 @@ article {
   table {
     font-size: 90%;
     margin-bottom: 1.5em;
-    vertical-align: top;
     thead tr {
       border-bottom: 1px solid $sidebar-border;
     }
@@ -79,6 +78,7 @@ article {
     }
     td {
       padding: 0 20px 10px 0;
+      vertical-align: top;
     }
   }
   > footer {
