@@ -29,7 +29,24 @@ body {
     font-weight: bold;
     }
   }
+
   #content .blog-index article {
+  table {
+    font-size: 90%;
+    margin-bottom: 1.5em;
+    thead tr {
+      border-bottom: 1px solid $sidebar-border;
+    }
+    th {
+      font-weight: bold;
+      padding-right: 20px;
+    }
+    td {
+      padding: 0 20px 10px 0;
+      vertical-align: top;
+    }
+  }
+
   header {
     h1 {
       margin: 0;
@@ -112,3 +129,14 @@ body {
 :-ms-input-placeholder {  
    color: $link-color;  
 }  
+
+.highlight, html .gist .gist-file .gist-syntax .gist-highlight {
+  table {
+    margin: 0;
+    td {
+      padding: 0;
+      &.code { width: 100%; }
+    }
+  }
+  border: 1px solid $pre-border !important;
+}
